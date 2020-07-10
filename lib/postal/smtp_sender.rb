@@ -26,7 +26,7 @@ module Postal
         else
           hostname = server
           port = 25
-          ssl_mode = 'Auto'
+          ssl_mode = 'none'
         end
 
         @hostnames << hostname
